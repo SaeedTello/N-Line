@@ -1,0 +1,148 @@
+.news {
+  font-weight: bold;
+  color: #d3aa82;
+  transform: translate();
+}
+
+.portfolio-border {
+  width: 170px;
+  background: black;
+  height: 2.5px;
+  display: block;
+  margin: 20px auto;
+}
+
+.LN-card {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  border: 2px solid #7c522b;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.LN-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.LN-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.LN-card .card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.LN-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #2f2f2d;
+}
+
+.LN-card .card-text {
+  flex-grow: 1;
+  margin-bottom: 15px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.cards-btn {
+  color: #ddbea0 !important;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  padding: 0;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.cards-btn:hover {
+  color: #d3aa82 !important;
+}
+
+/* Swiper Navigation Buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #d3aa82 !important;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  display: none;
+}
+
+/* Swiper Pagination */
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-horizontal.swiper-pagination-bullets {
+  position: absolute;
+  transform: translate(0, 40%);
+  z-index: 10;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background-color: #d3aa82 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .LN-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .LN-header p {
+    font-size: 0.9rem;
+    padding: 0 15px;
+  }
+
+  .LN-header p br {
+    display: none;
+  }
+
+  .LN-card .card-img-top {
+    height: 180px;
+  }
+
+  .portfolio-border {
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .LN-container {
+    padding: 15px !important;
+  }
+
+  .LN-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .LN-card .card-body {
+    padding: 15px;
+  }
+}
+/* Swiper Container */
+.mySwiper {
+  padding: 20px 0 50px 0;
+}
+
+.mySwiper .swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+/* Force 3 cards on desktop */
+@media (min-width: 1024px) {
+  .mySwiper .swiper-slide {
+    width: calc(33.333% - 20px) !important;
+  }
+}

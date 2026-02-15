@@ -1,0 +1,10 @@
+export {default as About} from './About/About';
+export {default as CEO} from './CEO/CEO';
+export {default as ContactUs} from './ContactUs/ContactUS';
+export {default as Details} from './Details/Details';
+export {default as Footer} from './Footer/Footer';
+export {default as Header} from './Header/Header';
+export {default as LatestNews} from './LatestNews/LatestNews';
+export {default as NavBar} from './NavBar/NavBar';
+export {default as Portfolio} from './Portfolio/Portfolio';
+export {default as Services} from './Services/Services';

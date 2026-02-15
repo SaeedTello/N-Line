@@ -1,0 +1,17 @@
+.events-header {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.events-body {
+  padding: 24px;
+  background: linear-gradient(to bottom, #d5d5d528, #d1d1d156);
+}
+@media (max-width: 1034px) {
+  .events-header {
+    top: 15%;
+  }
+}

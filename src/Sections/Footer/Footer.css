@@ -1,0 +1,26 @@
+.footer-container{
+    background: #D4AA83;
+}
+.footer-logo{
+    width: 100px;
+    height: auto;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1025px){
+    .footer-content{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .footer-logo{
+        margin: auto;
+    }
+}

@@ -1,0 +1,11 @@
+export { default as Home } from "./Home/Home";
+export { default as AboutUs } from "./AboutUs/AboutUs";
+export { default as ContactUs } from "./ContactUs/ContactUs";
+export { default as Clients } from "./Clients/Clients";
+export { default as ClientDetail } from "./Clients/ClientDetail";
+export { default as Events } from "./Events/Events";
+export { default as News } from "./News/News";
+export { default as NewsDetail } from "./News/NewsDetail";
+export { default as Services } from "./Services/Services";
+export { default as ValetServices } from "./ValetServices/ValetServices";
+export { default as Vip } from "./Vip/Vip";

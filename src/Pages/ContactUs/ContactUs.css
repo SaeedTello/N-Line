@@ -1,0 +1,129 @@
+.contactUs-header {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1034px) {
+  .contactUs-header {
+    top: 16vh;
+  }
+}
+@media (max-width: 480px) {
+  .contactUs-header {
+    top: 11.5vh;
+    font-size: 12px;
+  }
+}
+
+.contctus-body {
+  direction: rtl;
+}
+.locationimag {
+  width: 100%;
+  height: auto;
+}
+.contact-number p,
+.location p {
+  font-weight: 500;
+}
+.input-body{
+    background-color: #F6EDE4;
+}
+
+/* ===== Form Styling ===== */
+
+.input-body {
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 60px;
+  direction:ltr;
+}
+
+/* كل مجموعة */
+.form-group {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* العناوين */
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* حقول الاسم جنب بعض */
+.name-fields {
+  display: flex;
+  gap: 15px;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+/* تنسيق جميع الحقول */
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #d6c7b6;
+  border-radius: 6px;
+  background-color: #fdf6ef;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+/* تأثير عند التركيز */
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: black;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* checkbox */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #d6c7b6;
+}
+
+/* زر الإرسال */
+.submit-btn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #333;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+  .name-fields {
+    flex-direction: column;
+  }
+}
+
+.recaptcha-box {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 15p;
+}

@@ -1,0 +1,61 @@
+.borderr {
+  width: 170px;
+  background: black;
+  height: 2.5px;
+  display: block;
+}
+.fw {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.title span {
+  color: #d3aa82;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* شاشة متوسطة */
+@media (max-width: 991px) {
+  .row {
+    grid-template-columns: 1fr;
+    margin: 5px 10px;
+  }
+}
+
+/* شاشة صغيرة */
+@media (max-width: 576px) {
+  .row {
+    grid-template-columns: 1fr;
+    margin: 5px 10px;
+  }
+}
+.services-card {
+  border: 2px solid black !important;
+  border-radius: 0%;
+  position: relative;
+  font-weight: 1000;
+}
+
+.P {
+  position: absolute;
+  background-color: #d3aa82;
+  color: white;
+  top: 8px;
+  left: 8px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.arrow {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  background-color: #d3aa82;
+  color: white;
+  padding: 4px 2px;
+}

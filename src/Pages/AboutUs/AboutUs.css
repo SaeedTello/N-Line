@@ -1,0 +1,52 @@
+.aboutus-page {
+  padding: 24px;
+  background: linear-gradient(to bottom, #d5d5d528, #d1d1d156);
+  min-height: 100vh;
+}
+.about-us-title {
+  position: absolute;
+  text-align: center;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+.history-section {
+  direction: rtl;
+}
+.الشركة {
+  color: #d4aa83;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+.cards .card {
+  border: 0;
+  background-color: #ffffff;
+  padding: 15px;
+}
+.card-text {
+  white-space: pre-line;
+}
+
+.card-text.spaced .bullet-line {
+  display: block;
+  margin-bottom: 20px; /* كبّر الرقم حسب الذوق */
+}
+
+
+@media (max-width: 580px) {
+  .aboutus-page .card {
+  width: 90% !important;
+}
+}
+
+@media (max-width: 1034px) {
+  .about-us-title {
+    top: 14%;
+  }
+}

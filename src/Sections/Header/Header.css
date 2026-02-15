@@ -1,0 +1,19 @@
+.Header_Header {
+  background-color: #D3AA82;   
+}
+.Header_Header .container {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.Header_Header .container p {
+    margin: 10px 0 !important;
+    font-weight: 500;
+}
+
+/* Hide header on screens smaller than laptop (match NavBar breakpoint) */
+@media (max-width: 1024px) {
+  .Header_Header {
+    display: none;
+  }
+}

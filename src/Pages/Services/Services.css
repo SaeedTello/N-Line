@@ -1,0 +1,75 @@
+.sevices-page {
+  padding: 24px;
+}
+.services-card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.services-card:hover {
+  transform: translateY(-4px);
+}
+
+.services-header {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+}
+.srevices-card-budy {
+  height: auto;
+  padding-bottom: 70px;
+}
+
+
+.services-card .angelSvg {
+  background-color: #D3AA82;
+  padding: 10px 10px;
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 45px;
+  transform: none;
+}
+.cards-services .cards li {
+  border: #D3AA82 solid 2px !important;
+}
+
+@media (max-width: 1200px) {
+ .services-card ,.portfolio-border {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1046px) {
+  .services-header {
+  top: 37%;
+}
+}
+
+@media (max-width: 950px) {
+  .services-header {
+    top: 17%;
+  }
+}
+
+@media (max-width: 690px) {
+  .services-header {
+    top: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-header {
+    top: 17%;
+  }
+  
+}
+@media (max-width: 435px) {
+  .services-header {
+    top: 13%;
+  }
+}
