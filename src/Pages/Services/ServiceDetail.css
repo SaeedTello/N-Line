@@ -5,7 +5,7 @@
 
 .service-detail-header {
   position: absolute;
-  top: 13%;
+  top: 32%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 110;
@@ -83,7 +83,7 @@
     font-size: 40px;
   }
   .service-detail-header {
-    top: 8%;
+    top: 18%;
   }
 
   .service-detail-container {
@@ -96,9 +96,9 @@
   }
 }
 
-@media (max-width: 435px) {
+@media (max-width: 500px) {
   .service-detail-header {
-    top: 14%;
+    top: 10%;
     width: 90%;
   }
 
